@@ -9,7 +9,7 @@ plugins {
 }
 
 group = "com.archesky.ssl.library"
-version = '0.0.' + System.getenv("GITHUB_RUN_ID") + '-SNAPSHOT'
+version = "0.0.${getenv().getOrDefault("GITHUB_RUN_ID", "1")}-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_11
 
 repositories {
