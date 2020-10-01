@@ -1,4 +1,4 @@
-package com.archesky.common.library.configuration
+package com.archesky.ssl.library.configuration
 
 import org.apache.catalina.Context
 import org.apache.catalina.connector.Connector
